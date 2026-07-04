@@ -1,0 +1,6 @@
+Manual de instruções para o uso do chat. 
+1- Abra um terminal dentro do caminho onde estão os programas "servidor.cpp" e "cliente.cpp". 
+2 - Compile o servidor com : g++ -std=c++20 -pthread servidor.cpp -o servidor && ./servidor 4242 (Caso o programa ja esteja compilado apenas digite "./servidor 4242") 
+3 - Agora o servidor está esperando conexoes. Abra outro terminal na mesma pasta (Pra cada usuario abra um terminal pra ele) e compile o programa com g++ -std=c++20 -pthread cliente.cpp -o cliente && ./cliente ( Caso o programa já estiver compilado apenas digite ./cliente no terminal)
+4 - Insira o IP do servidor: 127.0.0.1 e a porta do servidor 4242. Coloque seu nome e pronto já está conectado ao chat, pode enviar mensagens a vontade. 
+5- Pra cada novo usuário faça os passo a passo 3 e 4.
